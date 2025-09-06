@@ -25,7 +25,7 @@ async function stalk() {
     // cek verified
     let verifiedIcon = "";
     if (user.verified) {
-      verifiedIcon = `<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Eo_circle_blue_white_checkmark.svg/1024px-Eo_circle_blue_white_checkmark.svg.png" class="verified" alt="verified">`;
+      verifiedIcon = `<img src="pngtree-instagram-bule-tick-insta-blue-star-vector-png-image_6695210-removebg-preview.png" class="verified" alt="verified">`;
     }
 
     document.getElementById("nickname").innerHTML = `${user.nickname} ${verifiedIcon}`;
